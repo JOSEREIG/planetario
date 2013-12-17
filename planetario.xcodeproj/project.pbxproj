@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8242F98D185B76F700E35CB1 /* nave-espacial.png in Resources */ = {isa = PBXBuildFile; fileRef = 8242F98C185B76F700E35CB1 /* nave-espacial.png */; };
 		82E849401851D6260091C616 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E8493F1851D6260091C616 /* Foundation.framework */; };
 		82E849421851D6260091C616 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E849411851D6260091C616 /* CoreGraphics.framework */; };
 		82E849441851D6260091C616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E849431851D6260091C616 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		82E849611851D6260091C616 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82E849431851D6260091C616 /* UIKit.framework */; };
 		82E849691851D6260091C616 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82E849671851D6260091C616 /* InfoPlist.strings */; };
 		82E8496B1851D6260091C616 /* planetarioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E8496A1851D6260091C616 /* planetarioTests.m */; };
+		82E849771851D9320091C616 /* Estrellas2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E849761851D9320091C616 /* Estrellas2.jpg */; };
+		82E849791851D93E0091C616 /* sol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82E849781851D93E0091C616 /* sol.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8242F98C185B76F700E35CB1 /* nave-espacial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nave-espacial.png"; sourceTree = "<group>"; };
 		82E8493C1851D6260091C616 /* planetario.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planetario.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82E8493F1851D6260091C616 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		82E849411851D6260091C616 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		82E849661851D6260091C616 /* planetarioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "planetarioTests-Info.plist"; sourceTree = "<group>"; };
 		82E849681851D6260091C616 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82E8496A1851D6260091C616 /* planetarioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = planetarioTests.m; sourceTree = "<group>"; };
+		82E849761851D9320091C616 /* Estrellas2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Estrellas2.jpg; sourceTree = "<group>"; };
+		82E849781851D93E0091C616 /* sol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sol.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 		82E849331851D6260091C616 = {
 			isa = PBXGroup;
 			children = (
+				82E849761851D9320091C616 /* Estrellas2.jpg */,
+				8242F98C185B76F700E35CB1 /* nave-espacial.png */,
+				82E849781851D93E0091C616 /* sol.jpg */,
 				82E849451851D6260091C616 /* planetario */,
 				82E849641851D6260091C616 /* planetarioTests */,
 				82E8493E1851D6260091C616 /* Frameworks */,
@@ -228,8 +237,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82E849791851D93E0091C616 /* sol.jpg in Resources */,
+				8242F98D185B76F700E35CB1 /* nave-espacial.png in Resources */,
 				82E849581851D6260091C616 /* Images.xcassets in Resources */,
 				82E8494A1851D6260091C616 /* InfoPlist.strings in Resources */,
+				82E849771851D9320091C616 /* Estrellas2.jpg in Resources */,
 				82E849531851D6260091C616 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,6 +472,7 @@
 				82E849701851D6260091C616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82E849711851D6260091C616 /* Build configuration list for PBXNativeTarget "planetarioTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				82E849731851D6260091C616 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
